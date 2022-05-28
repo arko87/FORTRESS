@@ -1,0 +1,15 @@
+2                                              #SPIN (= 1 or 2)
+200000                                         #NITER
+100, 5000                                      #STP, NSTP
+16                                             #NUMBER OF THREADS
+128, 128, 128                                  #NX, NY, NZ
+0.1D0, 0.1D0, 0.1D0, 0.005D0                   #DX, DY, DZ,  DT
+23                                             #MASS OF ATOM in amu
+34.9D0, 45.8D0, 64.5D0                         #A0, A2, A4 in Bohr radius
+10000                                          #NUMBER OF ATOMS
+20, 20, 20                                     #NUX, NUY, NUZ in Hz
+1.0D-6                                         #TOL
+1                                              #SWITCH_IM (is equal to 0 or 1)
+0.5D0, 0.5D0, 0.5D0                            #GAMMAX, GAMMAY, GAMMAZ 
+4                                              #OPTION_FPC (1 for ferro, 2 for polar, and 3 for cyclic)
+0.0D0                                          #MAG (is read if SWITCH_IM = 1 and GAMMAX = GAMMAY= GAMMAZ=0.0D0)
