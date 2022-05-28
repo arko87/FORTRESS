@@ -5,7 +5,6 @@ can be used to solve the coupled Gross-Pitaevskii equations (CGPEs) for a spin-o
 Bose-Einstein condensate (BEC). The codes are apt to compute the static properties like the ground state energy, density
 profiles, chemical potentials, and rms sizes, etc. as well as the real-time dynamics.
 
-FORTRESS is available from GitHub at  
  
 ## What the user need to have on the system to use the package?
 
